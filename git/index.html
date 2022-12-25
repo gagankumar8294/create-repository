@@ -14,7 +14,7 @@
 	<br>
 	<h3>Step-1 :-</h3>
 	<p> check in which directory you are in - <em><strong>pwd</strong></em></p>
-	<img src="step_1.png">
+	<img src="./images/step_1.png">
 	<h3>Step-2 :-</h3>
 	<p>create projects folder - <em><strong>mkdir</strong></em><br>
 		cd into <strong>projects</strong><br>
@@ -22,75 +22,144 @@
 	<p>copy the <strong>repository url</strong> of the github repository
 	</p>
 	<p><strong>In github dashboard.</strong></p>
-		<img src="step_2.png">
+		<img src="./images/step_2.png">
 	<br>
 	</p>
-	</p>
 	<h3>Step-4 :-</h3>
-	<p>Creating and cloning a repository
-</p>
-		<img src="step_3.png">
+	<p>
+		Creating and cloning a repository
+	</p>
+		<br>
+		<img src="./images/step_3.png"><br>
 	<p>clone the repository in the terminal<br>
-	<p><em>- </em><strong>git clone https://githu.com/gagankumar8294/trialtesting.git</strong><br></p>
+		<em>- </em><strong>git clone https://githu.com/gagankumar8294/trialtesting.git</strong><br>
+	</p>
 	<p>inside the cloned folder<br>
-		you can see folder trialtesting in my case - <strong>trialtesting</strong></p><br>
+		you can see folder trialtesting in my case - <strong>trialtesting</strong>
+	</p><br>
 	<h3>step-5 :-</h3>
-		<p>cd into trialtesting <em>-  </em><strong>cd trialtesting</strong>
-		</p>
-		<img src="step_4.png">
-		<p>.git/    ---- <strong>is a hidden folder to track all the changes</strong><br>in linux folder starts with <strong>.</strong> - is a hidden folder</p>
-		<p>README.md    ---  <strong>is about</strong><br></p>
-		<img src="step_5.png">
-		<p> checking current status of the project is a good practice  <em>- </em> <strong>git status</strong></p>
-		<p> it will shows which branch you're on , branches & etc.</p><br>
-		<h3>step-6 :- How to pull repository to your device</h3><br>
-		<p>Git Workflow</p>
-		<img src="step_6.png">
-		<h3> step-7 :- Add & commit</h3>
-		<img src="step_7.png">
-		<p>make sure you're inside the branch <em>- i.e.</em><strong>(main)</strong></p>
-		<p> create a file   <em>- </em><strong>touch test.txt</strong> </p>
-		<p><strong>Now if you check status, it will shows Untracked filed: "test.txt"</strong></p>
+	<p>
+		cd into trialtesting <em>-  </em><strong>cd trialtesting</strong>
+	</p>
+		<br>
+		<img src="./images/step_4.png">
+	<p>
+		.git/    ---- <strong>is a hidden folder to track all the changes</strong>
+		<br>in linux folder starts with <strong>.</strong> - is a hidden folder
+	</p>
+	<p>
+		README.md    ---  <strong>is about</strong><br>
+	</p>
+		<br>
+			<img src="./images/step_5.png">
+		<br>
+	<p> 
+		checking current status of the project is a good practice  <em>- </em> 
+		<strong>git status</strong>
+	</p>
+	<p> 
+		it will shows which branch you're on , branches & etc.
+	</p><br>
+	<h3>
+		step-6 :- How to pull repository to your device
+	</h3><br>
+	<p>
+		Git Workflow
+	</p><br>
+		<img src="./images/step_6.png"><br>
+		<h3> 
+			step-7 :- Add & commit
+		</h3><br>
+		<img src="./images/step_7.png"><br>
+	<p>
+		make sure you're inside the branch <em>- i.e.</em><strong>(main)</strong>
+	</p>
+	<p> 
+		create a file   <em>- </em><strong>touch test.txt</strong> 
+	</p>
+	<p>
+		<strong>
+			Now if you check status, it will shows Untracked filed: "test.txt"
+		</strong>
+	</p>
 		<br>
 
-		 <h3>The purpose of the git add command is that</h3>
-		 <p> I'm essentially prompting git and letting it know that I want to track this file, and that it will be included as part of my commit.
-		 </p><br>
-		 <img src="tracked.png">
-		 <p> to <strong>add[Track]</strong> the files you created  <em>- </em><strong>git add test.txt</strong></p>
-		 <p>you can notice <strong>new file: test.txt</strong></p></p><br>
-		 <p> To Untrack the files  <em>-   </em><strong>  git restore --stage test.txt</strong>
-		 	<br><img src="untracked.png"><br>
-		 <p>git status   <em>  -  </em><strong>"Untracked files: test.txt"</strong>
-		 </p><br>
+		 <h3>
+			The purpose of the git add command is that
+		</h3>
+	<p> 
+		I'm essentially prompting git and letting it know that I want to track this file,<br>
+		and that it will be included as part of my commit.
+	</p><br>
+		<img src="./images/tracked.png">
+	<p>
+		to <strong>add[Track]</strong> the files you created  <em>- </em><strong>git add test.txt</strong>
+	</p>
+	<p>
+		you can notice <strong>new file: test.txt</strong>
+	</p><br>
+	<p>
+		To Untrack the files  <em>-   </em><strong>  git restore --stage test.txt</strong>
+		<br>
+		<img src="./images/untracked.png"><br>
+	<p>
+		git status   <em>  -  </em><strong>"Untracked files: test.txt"</strong>
+	</p><br>
+	<br>
+	<h3>
+		Again add  ----   let tack the test.txt file
+	</h3>
+		<br>
+	<h3>commit</h3>
+	<p>
+		to commit  <em>  -  </em><strong>git commit -m "Adding a new file for testing"</strong>
+	</p>
+	<p>
+		<strong>-m  </strong>- flag to add text message to the file
+	</p>
 		 <br>
-		 <h3>Again add  ----   let tack the test.txt file</h3>
+	<p>
+		Now you <strong>check status</strong> says<strong>use "git push"</strong>
+	<p> 
+		<img src="./images/message_push.png">
+	<p>
+		now i can push the code
+	</p><br>
 		 <br>
-		 <h3>commit</h3>
-		 <p>to commit  <em>  -  </em><strong>git commit -m "Adding a new file for testing"</strong></p>
-		 <p> <strong>-m  </strong>- flag to add text message to the file</p>
+	<h3>Branch</h3><br>
+		<img src="./images/branch.png"><br>
+	<p>
+		To create a branch <em> -  </em>  <strong> git checkout -B feature/lesson</strong>
+		<br><br> - & this command moves me from main branch to <strong>"feature.lesson"</strong> branch
+	</p>
+		 <img src="./images/branch_check.png">
 		 <br>
-		 <p> Now you <strong>check status</strong> says<strong>use "git push"</strong><p> 
-		 <img src="message_push.png">
-		 <p> now i can push the code</p><br>
+	<p>
+		Adding file to the branch<br><em>  -  </em><strong>touch test2.txt</strong>
+		<strong> ---   git add test2.txt</strong></p>
 		 <br>
-		 <h3>Branch</h3>
-		 <img src="branch.png">
-		 <p>To create a branch <em> -  </em>  <strong> git checkout -B feature/lesson</strong>   <br><br> - & this command moves me from main branch to <strong>"feature.lesson"</strong> branch</p>
-		 <img src="branch_check.png">
-		 <br>
-		 <p>Adding file to the branch   <br><em>  -  </em><strong>touch test2.txt</strong><strong> ---   git add test2.txt</strong></p>
-		 <br>
-		 <h3>Step - 8 :-  making push</h3>
-		 <img src="just_made_push.png">
-		 <p>Next step is to <strong>compare & pull request</strong>
-		 	<p>this will let our team to make any changes, compare & etc
-		 	<img src="compare&pull.png">create on compare and pull</p>
-		 	<p>click on <strong>comapre & pull request</strong><br>
-		 	<br><img src="create_pull_request.png"><br>give the title  ,<strong>click on create pull request</strong></p>
-		 	<br><img src="merge_pull_request.png"><br>click on <strong>merge & pull request</strong><br>
-		 	<br><img src="confirm_merge.png"><br>click on <strong>Confirm message</strong>
-		 	<br><img src="branch_checkout.png"><br><p>checking out what are all the files available on branch   ---main branch</p>
-
+	<h3>Step - 8 :-  making push</h3>
+		 <img src="./images/just_made_push.png">
+	<p>
+		Next step is to <strong>compare & pull request</strong>
+	</p>
+	<p>
+		this will let our team to make any changes, compare & etc
+	</p>
+	<p>
+		<img src="./images/compare&pull.png">create on compare and pull
+	</p>
+	<p>
+		click on <strong>comapre & pull request</strong><br>
+		 	<br>
+		<img src="./images/create_pull_request.png">
+		<br>
+		give the title  ,<strong>click on create pull request</strong>
+	</p>
+		<br><img src="./images/merge_pull_request.png">
+		<br>click on <strong>merge & pull request</strong><br>
+		<br><img src="./images/confirm_merge.png"><br>click on <strong>Confirm message</strong>
+		<br><img src="./images/branch_checkout.png"><br>
+		<p>checking out what are all the files available on branch   ---main branch</p>
 </body>
 </html>
